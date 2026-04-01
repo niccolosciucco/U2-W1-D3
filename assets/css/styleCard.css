@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
+  color: rgba(116, 33, 4);
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bolder;
+}
+
+p {
+  margin: 0;
+}
+
+section {
+  padding: 1em 3em;
+  background-color: rgba(254, 247, 226);
+  max-width: 100%;
+}
+
+#description {
+  display: flex;
+  justify-content: space-between;
+}
+
+#description p:nth-of-type(1) {
+  font-weight: bold;
+}
+
+span {
+  font-weight: 100;
+}
+
+#button {
+  text-align: center;
+  margin-top: 1em;
+}
+
+#button button {
+  padding: 1em 3em;
+  background-color: rgba(255, 223, 127);
+  color: rgba(111, 32, 10);
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+}
