@@ -95,3 +95,33 @@ h1 {
   color: rgba(115, 33, 4);
   cursor: pointer;
 }
+
+#price p {
+  font-weight: bold;
+}
+
+#latest-news h3,
+#latest-news h4 {
+  font-weight: bold;
+}
+
+#latest-news h3 {
+  text-align: center;
+}
+
+#latest-news div {
+  width: 90%;
+  margin: 0 auto;
+  padding: 1em;
+  height: 36em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  background-color: rgba(254, 247, 226);
+  border-radius: 30px;
+}
+
+#latest-news img {
+  max-width: 100%;
+}
